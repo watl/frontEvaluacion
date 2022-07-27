@@ -26,6 +26,7 @@ constructor(private http: HttpClient) { }
     putData(id,formData){
     return this.http.put('/api/Employee/'+id,formData);
     }
+
     deleteData(id){
     return this.http.delete('/api/Employee/'+id);
     }

@@ -28,6 +28,8 @@ import { LoginComponent } from './components/login/login.component';
 import { ErrorComponent } from './components/error/error.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { AccessComponent } from './components/access/access.component';
+import { CargosComponent } from './components/cargos/cargos.component';
+
 @NgModule({
     imports: [
         RouterModule.forRoot([
@@ -56,7 +58,8 @@ import { AccessComponent } from './components/access/access.component';
                     {path: 'pages/empty', component: EmptyComponent},
                     {path: 'icons', component: IconsComponent},
                     {path: 'blocks', component: BlocksComponent},
-                    {path: 'documentation', component: DocumentationComponent}
+                    {path: 'documentation', component: DocumentationComponent},
+                    {path: 'uikit/cargos', component: CargosComponent}
                 ],
             },
             {path:'pages/landing', component: LandingComponent},
