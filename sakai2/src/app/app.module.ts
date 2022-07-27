@@ -126,6 +126,7 @@ import { ConfirmationComponent } from './components/menus/confirmation.component
 import { PersonalComponent } from './components/menus/personal.component';
 import { SeatComponent } from './components/menus/seat.component';
 import { LandingComponent } from './components/landing/landing.component';
+import { CargosComponent } from './components/cargos/cargos.component';
 
 import { EvaluacionService } from './service/evaluacionservice';
 import { CountryService } from './service/countryservice';
@@ -274,6 +275,7 @@ import { AccessComponent } from './components/access/access.component';
         ErrorComponent,
         NotfoundComponent,
         AccessComponent,
+        CargosComponent,
     ],
     providers: [
         {provide: LocationStrategy, useClass: HashLocationStrategy},
